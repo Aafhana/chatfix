@@ -2,7 +2,7 @@ class Chatbox {
    
     constructor() {
         this.args = {
-            openButton: document.querySelector(".chatbox__button"),
+            // openButton: document.querySelector(".chatbox__button"),
             chatBox: document.querySelector(".chatbox__support"),
             sendButton: document.querySelector(".send__button"),
             micbtn: document.querySelector(".mic"),
@@ -13,9 +13,10 @@ class Chatbox {
     }
 
     display() {
-        const { openButton, chatBox, sendButton, micbtn } = this.args;
+        // const { openButton, chatBox, sendButton, micbtn } = this.args;
+        const{chatBox, sendButton,micbtn}=this.args;
 
-        openButton.addEventListener("click", () => this.toggleState(chatBox));
+        // openButton.addEventListener("click", () => this.toggleState(chatBox));
 
         sendButton.addEventListener("click", () => this.onSendButton(chatBox));
         micbtn.addEventListener("click", () => this.speak(chatBox));

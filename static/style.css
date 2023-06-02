@@ -37,12 +37,12 @@ body {
 .chatbox__support {
     display: flex;
     flex-direction:column;
-    background: #eee;
+    /* background: #eee; */
     width: 300px;
     height: 350px;
-    z-index: -123456;
-    opacity: 0;
-    transition: all .5s ease-in-out;
+    /* z-index: -123456; */
+    /* opacity: 0; */
+    /* transition: all .5s ease-in-out; */
 }
 
 /* CONTENT ISOPEN */
@@ -54,9 +54,9 @@ body {
 }
 
 /* BUTTON */
-.chatbox__button {
+/* .chatbox__button {
     text-align: right;
-}
+} */
 
 .send__button {
     padding: 6px;
@@ -191,7 +191,7 @@ body {
     color: white;
 }
 
-.chatbox__button button,
+/* .chatbox__button button,
 .chatbox__button button:focus,
 .chatbox__button button:visited {
     padding: 10px;
@@ -203,4 +203,4 @@ body {
     border-bottom-left-radius: 50px;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-}
+} */
